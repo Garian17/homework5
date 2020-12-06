@@ -144,9 +144,10 @@ footer {
   justify-content: space-between;
   margin: auto;
   padding: 30px 30px 10px;
+  color: white;
 }
 footer a {
-  color: black;
+  color:white;
   text-decoration: none;
 }
 .footer-part2 {
@@ -228,6 +229,20 @@ input[type='button']:hover {
     display: flex;
     flex-direction: column-reverse;
     margin: auto;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    margin-top: 20px;
+    align-content: center;
+    text-align: center;
+  }
+  .footer p {
+    text-align: center;
+  }
+  .footer-part2, .footer-part1 {
+    text-align: center;
   }
 }
 
